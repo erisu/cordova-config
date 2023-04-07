@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="com.erisu.cordovaTest"
+    version="1.0.0">
+    <name>cordovaTest</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <preference name="hostname1" value="foobar" />
+    <preference name="hostname2" value="foobar" />
+    <preference name="globalOnly" value="foobar" />
+
+    <platform name="android">
+        <name unique="NAME">something special</name>
+        <preference name="hostname1" value="hogehogeAndroid" />
+        <preference name="hostname2" value="hogehogeAndroid" />
+        <preference name="platformOnly" value="foobar" />
+    </platform>
+
+    <platform name="ios">
+        <preference name="hostname1" value="hogehogeiOS" />
+        <preference name="hostname2" value="hogehogeiOS" />
+    </platform>
+</widget>
