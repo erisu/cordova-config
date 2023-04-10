@@ -3,7 +3,7 @@
     xmlns:cdv="http://cordova.apache.org/ns/1.0"
     id="com.erisu.cordovaTest"
     version="1.0.0">
-    <name>cordovaTest</name>
+    <name unique="NO" global="YES">cordovaTest</name>
     <description>Sample Apache Cordova App</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
@@ -17,7 +17,7 @@
     <preference name="globalOnly" value="foobar" />
 
     <platform name="android">
-        <name unique="NAME">something special</name>
+        <name unique="NAME" platform="YEP">something special</name>
         <preference name="hostname1" value="hogehogeAndroid" />
         <preference name="hostname2" value="hogehogeAndroid" />
         <preference name="platformOnly" value="foobar" />
